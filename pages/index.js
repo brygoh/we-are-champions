@@ -193,6 +193,7 @@ export default function Home() {
               width: `calc(100% - 72px)`,
             }}
             onChange={(e) => {setRegister(e.target.value)}}
+            onKeyDown={(e) => {if (e.code === 'Enter') saveRegister(e.target.value)}}
             multiline={true}
           />
           <Button 
@@ -209,6 +210,7 @@ export default function Home() {
               width: `calc(100% - 72px)`,
             }}
             onChange={(e) => {setScore(e.target.value)}}
+            onKeyDown={(e) => {if (e.code === 'Enter') setScore(e.target.value)}}
             multiline={true}
           />
           <Button 
