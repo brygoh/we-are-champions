@@ -182,7 +182,7 @@ export default function Home() {
           boxSizing: 'border-box',
           flexDirection: 'column',
           position: 'relative',
-          overflowY: 'scroll'
+          overflowY: 'auto'
         }}
         maxWidth="lg"
       >
