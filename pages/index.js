@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { AppBar, TextField, Button } from '@mui/material';
 import { SportsSoccer } from '@mui/icons-material';
 import { Container } from '@mui/system';
-import axios from 'axios';
 
 import CustomTable from '../components/table';
 
